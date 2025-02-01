@@ -4,9 +4,15 @@ const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
 const searchResult = document.getElementById("search-result");
 const showMoreBtn = document.getElementById("show-more");
+const background = document.getElementById("background");
+
 
 let keyword = "";
 let page = 1;
+
+window.onload = () => {
+    background.style.backgroundImage = "url('default-background.jpg')";
+};
 
 async function searchImage() {
     keyword = searchBox.value;
@@ -35,6 +41,11 @@ async function searchImage() {
     })
 
     showMoreBtn.style.display = "block";
+
+    /* to tackle background change 
+    const backgroundUrl = results[10].urls.regular;
+    background.style.backgroundImage = `url(${backgroundUrl})`; */
+
 }
 
 searchForm.addEventListener("submit", (e) => {
