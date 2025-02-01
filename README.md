@@ -2,6 +2,11 @@
 
 An interactive web application that allows users to search for images using the **Unsplash API**. The website fetches and displays images dynamically and even updates the background based on the search results.  
 
+## 🌐 Live Demo
+
+Check out the live version of this project here: [Live Demo](https://picturest-amber.vercel.app/)
+
+
 ## 🚀 Features  
 - 🔍 **Search Images**: Enter a keyword and get images from Unsplash.  
 - 📄 **Pagination Support**: Load more images using the **"Show More"** button.  
