@@ -38,26 +38,6 @@ This project requires an **Unsplash API key**. To get started:
     const accessKey = "YOUR_ACCESS_KEY_HERE";
     ```
 
-## 💻 Features
-
-- Search for images from Unsplash by keyword.
-- Displays images in a responsive grid layout.
-- Background image changes based on the first image of the search results.
-- Pagination to load more images by clicking "Show More".
-
-## 📷 Screenshots
-
-![App Screenshot](images/screenshot.png)
-
-_Example of the app in action, showing a list of image search results._
-
-## 🛠️ Technologies Used
-
-- **HTML** - For the structure of the app.
-- **CSS** - For styling and layout.
-- **JavaScript** - For dynamic behavior and interacting with the Unsplash API.
-- **Unsplash API** - For fetching images.
-
 ## 🚀 How to Use
 
 1. Open `index.html` in your browser.
