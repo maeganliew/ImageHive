@@ -16,17 +16,21 @@ body {
 h1 {
     text-align: center;
     font-weight: 500px;
-    padding-top: 70px;
-    font-size: 80px; /* Set the desired font size here */
+    padding-top: 90px;
+    font-size: 100px; /* Set the desired font size here */
     color: #131415;
+
+    font-family: 'Times New Roman', serif;
 }
 
 p {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 80px;
-    font-size: 25px; /* Set the desired font size here */
+    font-size: 29px; /* Set the desired font size here */
     color: #3b414d;
+
+    font-family: 'Times New Roman', serif;
 }
 
 form {
@@ -106,7 +110,7 @@ form button {
 
 #search-result img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border-radius: 5px;
 }
