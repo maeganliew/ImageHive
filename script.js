@@ -1,4 +1,4 @@
-const accessKey = "brr4e9i7BkpHvv9ytEGRq5G1CmkIoWs5qhKzZH5iUUY";
+const accessKey = "process.env.REACT_APP_NEWS_API_KEY;";
 
 const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
